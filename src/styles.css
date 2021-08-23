@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+.App {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #1e40af;
+  --font-color: white;
+}
+
+input {
+  padding: 0.5rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  margin-top: 7.32rem;
+  padding: 1rem 1rem;
+  color: white;
+  text-align: center;
+  bottom: 0;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
