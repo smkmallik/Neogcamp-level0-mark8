@@ -62,24 +62,27 @@ export default function App() {
       })}
 
       <footer className="footer">
-        <div class="footer-header">let's connect!</div>
-        <ul class="social-links list-non-bullet">
-          <li class="list-item-inline">
-            <a class="link" href="https://github.com/smkmallik">
+        <div className="footer-header">let's connect!</div>
+        <ul className="social-links list-non-bullet">
+          <li className="list-item-inline">
+            <a className="link" href="https://github.com/smkmallik">
               github
             </a>
           </li>
-          <li class="list-item-inline">
-            <a class="link" href="https://twitter.com/soumik_72">
+          <li className="list-item-inline">
+            <a className="link" href="https://twitter.com/soumik_72">
               twitter
             </a>
           </li>
-          <li class="list-item-inline">
-            <a class="link" href="https://www.linkedin.com/in/smkmallik/">
+          <li className="list-item-inline">
+            <a className="link" href="https://www.linkedin.com/in/smkmallik/">
               linkedin
             </a>
           </li>
         </ul>
+        <div className="end-credits">
+          Made with <span>❤️</span> Soumik Mallik
+        </div>
       </footer>
     </div>
   );

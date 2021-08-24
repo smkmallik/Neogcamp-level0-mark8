@@ -11,6 +11,7 @@
 }
 
 input {
+  font-family: inherit;
   padding: 0.5rem;
   text-align: center;
   margin: 1rem;
@@ -21,19 +22,22 @@ body {
 }
 
 header {
-  font-size: 2rem;
-  font-weight: bold;
+  display: block;
   background-color: var(--primary-color);
   color: var(--font-color);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin: auto;
 }
 
 .footer {
   background-color: var(--primary-color);
   margin-top: 7.32rem;
   padding: 1rem 1rem;
-  color: white;
-  text-align: center;
+  color: var(--font-color);
   bottom: 0;
+  text-align: center;
 }
 
 .footer .footer-header {
@@ -42,7 +46,7 @@ header {
 }
 
 .footer .link {
-  color: white;
+  color: var(--font-color);
 }
 
 .footer ul {
@@ -61,4 +65,10 @@ header {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
+}
+
+.end-credits {
+  margin: 1rem;
+  font-size: small;
+  font-weight: bold;
 }
