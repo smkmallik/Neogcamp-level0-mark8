@@ -7,7 +7,11 @@ var emojiDictionary = {
   "🍔": "Burger",
   "🥞": "Pan Cake",
   "🧇": "Waffle",
-  "🍟": "French Fries"
+  "🍟": "French Fries",
+  "🍗": "Chicken Leg",
+  "🥪": "Sandwich",
+  "🍜": "Spaghetti",
+  "🍣": "Sushi"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
