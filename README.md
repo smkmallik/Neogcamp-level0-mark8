@@ -4,4 +4,4 @@ This app will return the meaning of the Food Emoji entered by the user. It will 
 
 Tech Stack:- HTML, CSS, React
 
-Link:- g38bo.csb.app/
+Link:- https://g38bo.csb.app/
